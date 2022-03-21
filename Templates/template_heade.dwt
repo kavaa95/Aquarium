@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>Untitled Document</title>
+	
+	<!-- Bootstrap -->
+	  <link href="style.css" rel="stylesheet" type="text/css">
+	  <!-- TemplateEndEditable -->
+	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
+
+	  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+  <body>
+  	<!-- body code goes here -->
+  	
+  	<div class="article1">
+  	  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  	    <div class="container">
+  	      <div class="name_logo"> <a class="navbar-brand" href="../index.html"> ALEX KAVANAGH</a></div>
+  	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  	      <div class="collapse navbar-collapse color_text" id="navbarResponsive">
+  	        <ul class="navbar-nav ml-auto">
+  	          <li class="nav-item"> <a class="nav-link" href="../index.html">HOME</a> </li>
+  	          <li class="nav-item"> <a class="nav-link" href="../Filess/aqua.html">AQUA</a> </li>
+  	          <li class="nav-item"> <a class="nav-link" href="../Filess/gallery.html">GALLERY</a> </li>
+  	          <li class="nav-item"> <a class="nav-link" href="../Filess/contact.html">FEEDBACK</a> </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+	  <!-- TemplateBeginEditable name="EditRegion3" -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3014.8885344590926!2d-72.65859408521987!3d40.91818983291361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e88b2eaaff3b39%3A0x81062ad8d69ad9c0!2sLong%20Island%20Aquarium!5e0!3m2!1sen!2sus!4v1575054371201!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="info">
+      <h3><a>STOP BY :</a></h3>
+      <p> Hours of Operation:<br>
+        Sunday through Saturday 10am – 5pm<br>
+        We are closed on Thanksgiving and Christmas Day </p>
+      <h3> <a> CONTACT US :</a> </h3>
+      <p> Long Island Aquarium<br>
+        431 East Main Street<br>
+        Riverhead, NY 11901<br>
+        Phone: 631.208.9200<br>
+        Fax: 631.208.0466 </p>
+    </div>
+    <div class="myform">
+      <p>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </p>
+      <p>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </p>
+      <p>
+        <input type="email"  placeholder="email..">
+      </p>
+      <p>
+        <select id="country" name="country">
+          <option value="australia">GENDER</option>
+          <option value="canada">MALE</option>
+          <option value="usa">FEMALE</option>
+        </select>
+      </p>
+      <p>
+        <textarea rows="4" cols="50" placeholder="Describe yourself here..."></textarea>
+      </p>
+      <button>SUBMIT</button>
+    </div>
+  	
+<main><div class="footer">
+		    <p>&copy;ALEXKAVANAGH</p>
+	    </div>
+ 
+</main>
+<!-- TemplateEndEditable -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+  <script src="../js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../js/popper.min.js"></script> 
+  <script src="../js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>

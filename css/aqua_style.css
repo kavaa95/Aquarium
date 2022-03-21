@@ -1,0 +1,80 @@
+@charset "utf-8";
+main{
+	display: grid;
+	grid-template-columns: repeat(auto-fill,6fr);
+	grid-template-rows: 1fr;
+	
+}
+main .aqua1{
+	height: 47vw;
+	width: 100%;
+   
+
+	
+}
+main .info1{
+    filter: brightness(80%);
+    margin-top: 6vh;
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center 0%;
+    background-size: cover;
+    object-fit: cover;
+    background-image: url(../images/images/Georgia_Aquarium_-_Ocean_Voyager_Tunnel_Jan_2006.jpg);	
+}main .info2{
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-size: contain;
+    background-image: url(../images/images/info2-removebg-preview.png) , -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 45.08%,rgba(26,117,162,1.00) 100%);
+    background-image: url(../images/images/info2-removebg-preview.png) , -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 45.08%,rgba(26,117,162,1.00) 100%);
+    background-image: url(../images/images/info2-removebg-preview.png) , -o-linear-gradient(270deg,rgba(0,0,0,1.00) 45.08%,rgba(26,117,162,1.00) 100%);
+    background-image: url(../images/images/info2-removebg-preview.png) , linear-gradient(180deg,rgba(0,0,0,1.00) 45.08%,rgba(26,117,162,1.00) 100%);
+    background-position: 25% 0%;
+}
+main .info3{
+    background-image: url(../images/images/photo-1488202179256-36652066c482.jpg);
+    background-position: -21% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: contain;
+    background-color: #000000;
+}
+
+main .info4{
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: left 0%;
+    background-size: contain;
+    background-image: url(../images/images/info3.jpg);
+    background-color: #010522;
+}
+main p{
+	filter: brightness(100%);
+	color: white;
+	margin-right: 2vw;
+    width: 45%;
+    float: right;
+    
+    font-size: 2.5vw;
+    
+    text-align: justify;
+    padding-left: 5vw;
+    margin-top: 9vw;
+    
+}
+.footer{
+	color: white;
+    text-align: center;
+    padding: 5%;
+   background-color: #010137;
+}
+@media (min-width: 1026px){
+	
+	main .info1,.info2,.info3,.info4{
+    	background-attachment: fixed;
+		
+	}
+	
+}
