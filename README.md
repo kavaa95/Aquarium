@@ -1,4 +1,4 @@
-# Aquqarium
+# Aquarium
 #Project Completed in 2019
 ----------------------------------------------------------
 
